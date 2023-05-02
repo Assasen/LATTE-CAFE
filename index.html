@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main-page" id="main">
+      <div class="wrapper">
+        <header class="header">
+          <ul class="header-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#booking">Booking</a></li>
+          </ul>
+          <div class="logo">
+            <a href="#main"><h1>LATTE CAFE</h1></a>
+          </div>
+          <div class="social-networks">
+            <a href="#"><img src="img/email.png" alt="" /></a>
+            <a href="#"> <img src="img/facebook.png" alt="" /></a
+            ><a href="#"><img src="img/instagram.png" alt="" /></a>
+          </div>
+        </header>
+        <div class="main-page-pic"></div>
+      </div>
+    </section>
+    <section class="about-page" id="about">
+      <div class="wrapper">
+        <h2>About us</h2>
+        <p>
+          Tucked away in the corner of Wellington, Latte Cafe is a local neighbourhood cafe and bar.
+          Latte is all about doing what we love, in a city that we love. We keep stocked with local
+          produce and pastries. Bring your family for a bite, or meet your friends for a coffee or
+          warm drink.
+        </p>
+      </div>
+    </section>
+    <section class="menu-page" id="menu">
+      <div class="wrapper">
+        <div class="menu-page-content">
+          <div class="menu-types">
+            <p class="menu-title">Menu</p>
+            <p class="menu-text">
+              We change our menu every season. Here is what we are currently dishing up.
+            </p>
+            <div class="menu-buttons">
+              <button class="menu-button-active" id="food_menu" onclick="showFirstImage()">
+                Food Menu
+              </button>
+              <button id="drinks_menu" onclick="showSecondImage()">Drinks Menu</button>
+              <button id="takeaway_menu" onclick="showThirdImage()">Takeaway Menu</button>
+            </div>
+          </div>
+          <div class="menu">
+            <img src="img/menu.png" alt="" id="img_1" class="active-image" />
+            <img src="img/menu2.png" alt="" id="img_2" />
+            <img src="img/menu3.jpg" alt="" id="img_3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info-page" id="info">
+      <div class="wrapper">
+        <div class="info-page-content">
+          <div class="info-item">
+            <h3>Location</h3>
+            <p>Cuba St, Te Aro,</p>
+            <p>Wellington 101</p>
+          </div>
+          <div class="info-item">
+            <h3>Hours</h3>
+            <p>Tuesday to Friday</p>
+            <p>7AM - 3PM</p>
+            <br />
+            <p>Saturday to Sunday</p>
+            <p>8AM - 3PM</p>
+          </div>
+          <div class="info-item">
+            <h3>Mondays?</h3>
+            <p>
+              We are closed on Mondays <br />
+              to reflect and refuel
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-page" id="gallery">
+      <div class="wrapper">
+        <div class="gallery-content">
+          <img src="img/gallery-item1.png" alt="" class="item-a" />
+          <img src="img/gallery-item2.png" alt="" class="item-b" />
+          <img src="img/gallery-item3.png" alt="" class="item-c" />
+        </div>
+      </div>
+    </section>
+    <section class="booking-page" id="booking">
+      <div class="wrapper">
+        <div class="booking-content">
+          <h2>
+            Award winning <br />
+            cafe and bar.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul class="upper-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Bookings</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <ul class="bottom-nav">
+        <li><a href="#">Style Guide</a></li>
+        <li><a href="#">Licenses</a></li>
+        <li><a href="#">Instructions</a></li>
+        <li><a href="#">Changelog</a></li>
+        <li><a href="#">Password</a></li>
+        <li><a href="#">404</a></li>
+      </ul>
+      <div class="footer-copyright">
+        <p>© Latte Cafe 2022.</p>
+        <p>Built by Nikolai Bain</p>
+        <p>Powered by Webflow</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
